@@ -9,7 +9,94 @@
   <body>
     <section class="portfolio">
       <div class="container">
-        <h2 class="title portfolio__title">Портфолио</h2>
+        <div class="portfolio__header">
+          <h2 class="title portfolio__title">Портфолио</h2>
+          <div class="portfolio__link">
+            <a href="#">Смотреть портфолио</a>
+            <img
+              src="img/svg/link-arrow-right.svg"
+              alt="Иконка: стрелка вправо"
+            />
+          </div>
+          <!-- /.portfolio__link -->
+        </div>
+        <!-- /.portfolio__header -->
+        <div class="portfolio__carousel carousel">
+          <div class="carousel__card card">
+            <div class="card__image">
+              <img src="img/card-01.jfif" alt="Фото: домашний кинотеатр" />
+            </div>
+            <!-- /.card__image -->
+            <h3 class="card__title">Домашний кинотеатр с изюминкой</h3>
+            <p class="card__descr">
+              В нашем новом проекте домашнего кинотеатра задача была в целом
+              довольно типичной – построить систему с использованием встроенных
+              акустических систем.
+            </p>
+          </div>
+          <!-- /.carousel__card -->
+          <div class="carousel__card card">
+            <div class="card__image">
+              <img
+                src="img/card-02.jfif"
+                alt="Фото: салон роскошного автомобиля"
+              />
+            </div>
+            <!-- /.card__image -->
+            <h3 class="card__title">Роскошный автомобиль с «умным салоном»</h3>
+            <p class="card__descr">
+              Эксклюзивный Mercedes Benz V class обрел не только шикарный салон
+              первого класса с креслами, баром, сейфом и телевизором, но и
+              благодаря нашей помощи позволил управлять всем этим богатством с
+              iPad!
+            </p>
+          </div>
+          <!-- /.carousel__card -->
+          <div class="carousel__card card">
+            <div class="card__image">
+              <img src="img/card-03.jfif" alt="Фото: колонка и саббуфер" />
+            </div>
+            <!-- /.card__image -->
+            <h3 class="card__title">Гостиная-кинотеатр</h3>
+            <p class="card__descr">
+              Посмотрев на фотографии этой светлой гостиной сразу и не поймешь,
+              что расположена она в цокольном этаже дома и не имеет окон.
+            </p>
+          </div>
+          <!-- /.carousel__card -->
+          <div class="carousel__card card">
+            <div class="card__image">
+              <img src="img/card-04.png" alt="Фото: домашний кинотеатр" />
+            </div>
+            <!-- /.card__image -->
+            <h3 class="card__title">Кинотеатр на крыше</h3>
+            <p class="card__descr">
+              Посмотрев на фотографии этой светлой гостиной сразу и не поймешь,
+              что расположена она в цокольном этаже дома и не имеет окон.
+            </p>
+          </div>
+          <!-- /.carousel__card -->
+          <img
+            src="img/svg/arrow-left.svg"
+            alt="Иконка: стрелка влево"
+            class="carousel__arrow carousel__arrow--left"
+          />
+          <img
+            src="img/svg/arrow-right.svg"
+            alt="Иконка: стрелка вправо"
+            class="carousel__arrow carousel__arrow--right"
+          />
+        </div>
+        <!-- /.portfolio__carousel -->
+        <div class="portfolio__buttons">
+          <button class="button portfolio__button button--light">
+            Заказать выезд специалиста
+          </button>
+          <button class="button portfolio__button button--dark">
+            Заказать проектирование
+          </button>
+        </div>
+        <!-- /.portfolio__buttons -->
       </div>
       <!-- /.container -->
     </section>

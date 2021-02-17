@@ -1,6 +1,79 @@
 .portfolio {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+  }
   &__title {
     font-family: 'FuturaPT-ExtraBold', sans-serif;
     font-size: 48px;
+    text-transform: uppercase;
+  }
+  &__link {
+    cursor: pointer;
+    a {
+      margin-right: 8px;
+      text-decoration: none;
+      color: $gold;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+  }
+  &__carousel {
+    margin-bottom: 40px;
+  }
+  &__buttons {
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__button {
+    margin-right: 40px;
+  }
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  gap: 40px;
+  &__card {
+    flex: 0 1 25%;
+  }
+  &__arrow {
+    position: absolute;
+    top: 30%;
+    &--left {
+      left: -40px;
+    }
+    &--right {
+      right: -40px;
+    }
+  }
+}
+
+.card {
+  flex-basis: 410px;
+  &__image {
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__title {
+    font-family: 'FuturaPT-Bold', sans-serif;
+    font-size: 32px;
+    line-height: 41px;
+    margin-bottom: 20px;
+  }
+  &__descr {
+    font-size: 20px;
+    line-height: 30px;
+    color: $gray;
+    margin: 0;
   }
 }

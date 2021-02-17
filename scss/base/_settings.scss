@@ -39,7 +39,24 @@ img {
 }
 h2,
 h3 {
+  margin: 0;
   color: $gold;
+}
+.button {
+  border: 1px solid $gold;
+  width: 340px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  &--light {
+    color: $gold;
+    background-color: $white;
+  }
+  &--dark {
+    color: $white;
+    background-color: $gold;
+  }
 }
 
 // .button
@@ -59,16 +76,3 @@ h3 {
 //     border: 2px solid #000000
 //   &__consultation
 //     border: 2px solid #000000
-// .title
-//   font-family: 'PlayfairDisplay-Bold', serif
-//   font-size: 55px
-//   margin: 0
-//   &__background
-//     position: absolute
-//     top: -75px
-//     left: 0
-//     width: 156px
-//     height: 208px
-//     background: #FBF0EC
-//     border-radius: 0px 150px 0px 0px
-//     z-index: -1;
