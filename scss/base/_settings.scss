@@ -31,7 +31,7 @@ body {
   font-family: 'FuturaPT-Book', sans-serif;
 }
 .container {
-  max-width: 1760px;
+  max-width: 91.6%;
   margin: 0 auto;
 }
 img {
@@ -58,21 +58,3 @@ h3 {
     background-color: $gold;
   }
 }
-
-// .button
-//   display: block
-//   width: 240px
-//   max-height: 50px
-//   font-family: 'Inter-Medium'
-//   font-size: 15px
-//   text-decoration: none
-//   text-align: center
-//   color: inherit
-//   padding: 16px 0
-//   cursor: default
-//   &__registration
-//     background-color: #000000
-//     color: #ffffff
-//     border: 2px solid #000000
-//   &__consultation
-//     border: 2px solid #000000

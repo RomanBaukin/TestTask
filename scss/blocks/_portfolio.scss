@@ -34,8 +34,11 @@
 
 .carousel {
   position: relative;
-  display: flex;
-  gap: 40px;
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
   &__card {
     flex: 0 1 25%;
   }
@@ -48,6 +51,9 @@
     &--right {
       right: -40px;
     }
+  }
+  &__pagination {
+    display: none;
   }
 }
 
